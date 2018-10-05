@@ -49,8 +49,7 @@ Version 1.0.0
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
+This project is licensed under nil
 ## Acknowledgments
 
 * Eske Hoy Nielsen, who created the Mindstorm part of the project to control the robot. Polling the aws SQS for the commands sent through the pipeline.
