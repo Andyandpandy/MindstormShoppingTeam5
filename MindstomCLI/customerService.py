@@ -5,7 +5,7 @@ import requests
 
 class Service:
     def __init__(self):
-        self.endpoint = "https://3xef1f6fnc.execute-api.eu-west-1.amazonaws.com/Testing/commandsfromshopper"
+        self.endpoint = ""
         self.productIDS = ["10851", "60156", "76093", "41594", "75193"]
         print("Welcome to the LEGO store")
         self.name = input("What is your name? ")
@@ -61,7 +61,7 @@ class Service:
 
     def textual_option(self):
         try:
-            description = input("Try and describe the product you are searching for")
+            description = input("Try and describe the product you are searching for? ")
             self.send_request({"name": self.name, "msg": description})
         except Exception:
             print("Something with your description went wrong")
